@@ -1,0 +1,2 @@
+# onebitcodeJourney
+trajectory on course

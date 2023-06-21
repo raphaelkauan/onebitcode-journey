@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviando valores do DOM para o Javascript</title>
+</head>
+<body>
+    <h1>Enviando valores do DOM para o Javascript</h1>
+    <hr>
+
+    <h2>Registre-se!</h2>
+    <section>
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome">
+        <br>
+        <label for="senha">Senha: </label>
+        <input type="text" name="senha" id="senha">
+        <br>
+        <label for="confirmarSenha">Confirmar senha: </label>
+        <input type="text" name="confirmarSenha" id="confirmarSenha">
+        <br>
+        <button onclick="register(this.parentNode)">Confirmar</button>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+</html>

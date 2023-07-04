@@ -17,7 +17,6 @@ const [primeiro, segundo] = parentes
 console.log(primeiro, segundo)
 
 // Desestruturação de funções
-
 function user({nome, idade, parentes}) {
     // Gera número aleatório
     const id = Math.floor(Math.random() * 9999)
